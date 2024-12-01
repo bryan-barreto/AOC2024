@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Solutions;
+
+namespace AOC2024
+{
+    class AOC2024
+    {
+        static void Main(string[] args)
+        {
+            Day1.part1();
+            
+        }
+    }
+}
