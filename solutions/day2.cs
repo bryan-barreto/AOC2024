@@ -87,8 +87,8 @@ namespace Solutions
                         levelList.RemoveAt(removeAt);
                         if (isSafe(levelList.ToArray()))
                         {
-                            removeAt = levelInt.Count();
                             total++;
+                            break;
                         }
                         else{removeAt++;}
                     }
